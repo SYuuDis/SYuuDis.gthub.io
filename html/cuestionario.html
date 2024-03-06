@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <title>Mi primera pagina</title>
+     <link rel="stylesheet" href="../CSS/Estilo.css">
+     <link href="../ccs/style_page_galeria.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+       <header>
+        <h1>CUESTIONARIO&nbsp;</h1>
+    </header>
+   
+<nav>
+
+           <a href="../index.html">Inicio </a>
+            <a href="galerianueva.html">Galeria</a>
+			<a href="Practicas.html">Practicas</a>
+			<a href="contacto.html">Contacto</a>
+        </nav>
+  
+    <main>
+      <section>
+		  <p>Hola como estas? bienvenido o bienvenida quiero saber mas de ti.&nbsp;</p>
+       		<form action="submit.php" method="post">
+        <ol>
+            <li>
+                <label for="pregunta1">¿Cuál es tu edad?</label>
+                <br>
+                <input name="pregunta1" type="text" required id="pregunta1" size="70">
+            </li>
+            <li>
+                <label for="pregunta2">¿Cuáles son tus juegos favoritos?&nbsp;</label>
+                <br>
+                <input name="pregunta2" type="text" required id="pregunta2" size="50">
+            </li>
+            <li>
+                <label for="pregunta3">¿Cuáles son tus hobbies?&nbsp; &nbsp;</label>
+                <br>
+                <input name="pregunta3" type="text" required id="pregunta3" size="50">
+            </li>
+			<li>
+                <label for="pregunta4">¿De donde eres&nbsp; &nbsp; ?</label>
+                <br>
+                <input name="pregunta4" type="text" required id="pregunta5" size="50">
+            </li>
+            <li>
+                <label for="pregunta5">¿Cuál es tu color favorito?</label>
+                <br>
+                <input name="pregunta5" type="color" required id="pregunta3" autocomplete="off">
+            </li>
+        </ol>
+</form>
+<form>
+            <textarea name="mensaje" id="mensaje" placeholder="Hablame más acerca de ti..." required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+      </section>
+     </main>
+     <footer>
+       <p><b>Creador de la pagina Sergio A. Labastida Gallardo</b></p>
+     </footer>
+</body>
+</html>
