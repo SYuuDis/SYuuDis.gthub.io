@@ -1,0 +1,204 @@
+*{
+    margin: : 0;
+    padding:  0;
+    }
+    header, nav, main, footer{
+    width: 100%;
+    margin: 0 auto;
+    color: darkred;
+    padding: 30px;
+    text-align: center;
+        
+    }
+nav{
+    height: 30px;
+    background-color: #5A0204;
+    
+    }
+main{
+    height: auto;
+    background-color: #000000;
+    
+    }
+    
+footer{
+    height: :100px;
+    background-color:darkred;
+    }
+section{
+    width: 60%;
+    height: auto;
+    background-color:darkgrey;
+    margin: 20px;
+    display: inline-block;
+    padding: 20px;
+    }
+
+a{
+    text-decoration: none;
+    font-weight: 900;
+    margin: 0 20px;
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-variant: small-caps;
+   }
+a:link, 
+{
+    color:darkblue;
+    }
+
+a:visited{
+    color:beige;
+    }
+a:hover{
+color: darksalmon;
+    }
+#tabla_tres img{
+    width: 100%;
+}
+table{
+    width: 100%;
+    border: 5px solid darkred;
+    margin: 30px auto;
+    border-collapse: collapse;
+    }
+table td, table th{
+    border: 2px solid darkred;
+    }
+table th{
+    background-color: black;
+    color: #FFFFFF;
+    height: 50px;
+
+    font-weight: bold:
+    }
+
+table td{
+    background-color:;
+    color: black;
+    height: 30px;
+    padding: 10px;
+    font-weight: bold;
+    }  
+
+
+        }
+ #tabla_dos{
+           width: 60%;
+           background-color: darkred;
+     margin: 20px auto;
+           
+       }
+       #tabla_dos th{
+            background-color: black;
+            color: aqua;
+        }
+       #tabla_dos td {
+           background-color:darkgrey;
+           color:aliceblue;
+           font-weight: bold;
+       }
+       #tabla_dos th, #table_dos td{
+           border: 2px solid darkred;
+       }
+       #tabla_dos tbody td:hover{
+           background-color: black;
+           color: black;
+       }
+
+
+#tabla_tres {
+          width: 700px;
+          margin: 20px auto;
+         
+        }
+
+        #tabla_tres th{
+             background-color:darkred;
+             color: black;
+        }
+        #tabla_tres tr:nth-child(even) {
+            background-color:aliceblue;
+            color:cornsilk;
+        }
+        #tabla_tres tr:nth-child(odd){
+            background-color:darkgray;
+            color: cornsilk;
+        }
+        #tabla_tres tr:hover{
+           background-color: black;
+           color: aliceblue;
+        }
+input[type=text],input[type=email] {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+section form label {
+    color: #FFFFFF;
+    font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    margin-top: 0px;
+    margin-right: 9px;
+    font-weight: bold;
+    text-align: left;
+    display: block;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+#seccion_contact {
+    border: 18px dashed #5A0204;
+}
+
+
+
+
+#fmensaje {
+    width: 100%;
+    height: 85px;
+    margin-top: 4px;
+    margin-bottom: 20px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    color: #600001;
+    font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+    border: 7px solid #FFFFFF;
+    top: 16px;
+    left: 5px;
+    right: 0px;
+    padding-right: 28px;
+    padding-left: 28px;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 24px;
+    background-color: #A9A9A9;
+}
+section form input[type=submit] {
+    width: 20%;
+    height: 30px;
+    border: 5px solid #FFFFFF;
+    background-color: #000000;
+    text-shadow: 0px 0px #040967;
+    color: #FBFBFB;
+}
+#seccion_contact form #fname {
+    background-color: #A9A9A9;
+    color: #000000;
+    padding-top: 9px;
+    border: 5px solid #FFFFFF;
+}
+#seccion_contact form #fmail {
+    padding-bottom: 9px;
+    color: #000000;
+    background-color: #A9A9A9;
+    border: 5px solid #FFFFFF;
+}
+
+
+#seccion_contact {
+}
+main section form {
+    width: 50%;
+    padding: 50px;
+    margin: 0 auto;
+    background-color: #250000;
+}
